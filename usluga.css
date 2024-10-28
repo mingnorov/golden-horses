@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #d4af37; /* Oltin rang */
+}
+
+.service {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.service img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    padding-left: 30px;
+    align-items: center;
+    margin: auto;
+}
+
+.service p {
+    flex: 1;
+    margin-left: 20px;
+    font-size: 18px;
+    color: #333;
+}
